@@ -1,0 +1,303 @@
+body{
+    width: 100vw;
+    overflow-x: hidden;
+    margin: 0;
+   
+
+}
+header{
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    border-bottom: 2px solid #FC5400;
+    padding-top:50px;
+}
+.logo{
+    width: 231px;
+    height: 31px;
+    margin:auto 30px;
+    padding-bottom: 3px;
+}
+.navbar ul{ 
+    display:flex;
+    justify-content: space-around;
+    margin:0 100px;
+    vertical-align: bottom;
+
+}
+.navbar ul li{
+  text-decoration: none;
+  display:inline-block;
+ 
+  text-transform: uppercase;
+}
+.navbar ul li:hover{
+    color: #FC5400;
+    cursor: pointer;
+}
+.mainblock1{
+    border-top: 6px solid #A5A5A5;
+    margin-top: 5px;
+   
+}
+.topline1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    width: 95%; 
+    margin: 20px auto 4px;
+}
+.wideblade img:nth-of-type(3){
+padding-left:30px;
+}
+
+.icon img:nth-of-type(1){
+    padding-bottom:10px;
+}
+.bladeoptions{
+    background-image: url(../images/greyline.png);
+    background-size: cover;
+    width: 95vw;
+    margin:auto;
+    height: 35px;
+    position: relative;
+    background-clip: border-box;
+}
+.bladeoptions p, .packagingoptions p{
+    position: absolute;
+    width: 48px;
+    margin:auto;
+    text-align: center;
+    text-transform: uppercase;
+    padding-left:5px;
+    padding-top: 2px;
+    font-size: 12px;
+}
+.bladeoptions img{
+ vertical-align: middle;
+}
+.bladeoptions img:nth-of-type(2){
+padding-left:60px;
+}
+.bladeoptions img:nth-of-type(4){
+    padding-left: 30px;
+}
+.bladedescription{
+    align-items: center;
+    vertical-align: middle;
+    padding-top: 25px;
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    margin:auto;
+}
+.bladedescription img{
+margin:auto;
+}
+.packagingoptions{
+    max-width: 95%;
+    height: 35px;
+    background-image: url(../images/greyline.png);
+    background-size: cover;
+    margin:auto;
+    position: relative;
+    display:flex;
+    justify-content: space-between;
+}
+.packagingoptions div img{
+    vertical-align: middle;
+}
+.packagingoptions p{
+margin:auto;
+}
+.tradew4 img:nth-of-type(2){
+    padding-left:60px;
+}
+.bladex5{
+    padding-right:20px;
+}
+.mainblock2{
+
+margin: auto;
+}
+.topline2{
+    width: 90vw;
+    margin:auto;
+}
+.parameters{
+    margin:auto;
+    display:grid;
+    grid-template-columns: 2fr 3fr;
+    width: 95vw;
+    /* margin-left: -40px; */
+
+}
+.about{
+    margin: 0;
+    
+}
+table{
+    width: 570px;
+    font-family: 'Coda Caption', sans-serif;
+    color:#808080;
+    text-transform: uppercase;
+}
+ tr.borderbottom td{
+    border-bottom: 1pt solid black;
+    }
+    th{
+        border-bottom: 1pt solid #FC5400;
+    }
+    th:nth-of-type(1){
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: start;
+    }
+    td{
+        text-align: center;
+    }
+    td:nth-of-type(1){
+        text-align: start;
+    }
+    .case-metric img:first-of-type{
+padding-top:40px;
+    }
+    .case-metric img{
+    border-bottom: 1pt solid black;
+    }
+    .case-metric img:first-of-type{
+        border-bottom: 1pt solid #FC5400;
+    }
+    .pathblock{
+        display:flex;
+        width: 100%;
+        background-image: url(../images/Path.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+      margin: auto;
+        color:white;
+    }
+    .pathblock h3{
+        color:#FC5400;
+        margin-bottom: 0;
+        font-size: 15px;
+        }
+        .pathblock p{
+        margin:0;
+        font-size:11px;
+        }
+        .text1, .text2, .text3{
+            margin-left:50px;
+            width: 163px;
+            height: 128px;
+            
+        }
+        .rectangle{
+            background-image: url(../images/bcgr-Rectangle.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 165px;
+            width: 100vw;
+            color:white; 
+            padding-left:50px;
+            padding-top:30px;
+        }
+        .rectangle h2{
+            margin: 0;
+            font-size: 21px;
+        }
+     .rectangle p{
+         word-wrap: break-word;
+         width: 90%;
+         font-size: 18px;
+     }
+     .contacts{
+         right:40px;
+         position: absolute;
+     }
+     @media (max-width: 1030px){
+        .mainblock1 .navbar ul {
+             display:grid;
+             grid-template-columns: 1fr 1fr;
+             grid-column-gap: 10px;
+             padding-left: 0;
+         }
+         .mainblock1 .navbar ul li{
+             border-bottom: 2px solid #FC5400;;
+         }
+         .bladedescription img:nth-of-type(2){
+           
+             width: 400px;
+         }
+         .packagingoptions img:nth-of-type(2),.bladeoptions img:nth-of-type(2){
+             padding-left:0;
+         }
+         .parameters{
+             grid-template-columns: 1fr;
+             margin: auto;
+         }
+         .about img{
+        width: 500px;
+         }
+         .case-metric img:first-of-type{
+             width: 100px;
+         }
+         .case-metric{
+             margin-bottom: 20px;
+         }
+         .rectangle{
+             padding-top:0;
+             height: 200px;
+             margin-top: -20px;
+         }
+     }
+     @media (max-width: 590px){
+         body{box-sizing: border-box;}
+         
+        .mainblock1 .navbar ul {
+           grid-template-columns: 1fr;
+           padding-top: 5px;
+        }
+        .bladedescription{
+            grid-template-columns: 1fr;
+        }
+        header{
+            grid-template-columns: 1fr;
+            max-width: 100vw;
+        }
+        .rectangle{
+            max-width:100vw;
+            
+        }
+        .rectangle p{
+            width: 80%;
+            margin: auto;
+            
+        }
+        .icon img:last-of-type{
+            width: 50px;
+        }
+        .bladedescription img:last-of-type{
+width: 300px;
+        }
+        .tradew4 img:nth-of-type(3){
+            display: none;
+        }
+        .parameters .targetscraping img{
+width: 300px;
+        }
+        .about img{
+            width: 300px;
+        }
+        table{
+            width: 300px;
+        }
+        .pathblock div{
+margin-left: 10px;
+padding-bottom: 20px;
+        }
+        .rectangle{
+            padding-left:0;
+            height: 320px;
+        }
+        .contacts img{
+           padding-left:10px;
+        }
+     }
